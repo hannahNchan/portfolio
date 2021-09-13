@@ -1,0 +1,14 @@
+.hannah-socialnetworks > p {
+  color: antiquewhite;
+  text-transform: uppercase;
+  font: 12px/1.2 Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  text-align: center;
+}
+
+.hannah-socialnetworks > ul {
+  list-style-type: none;
+}
+
+.hannah-socialnetworks > ul > li {
+  display: inline;
+}

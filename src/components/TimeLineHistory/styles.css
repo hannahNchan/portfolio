@@ -1,0 +1,31 @@
+.hannah-timeline__oposite {
+  flex: 0.1 0.1 !important;
+}
+
+.hannah-timeline__itemContentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+}
+
+.hannah-timeline__itemListTechnologies {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.hannah-timeline__itemListTechnologies > span {
+  justify-content: space-between;
+  background-color: #b9d8ea;
+  padding: 10px;
+}
+
+.hannah-timeline__itemListTechnologies > span:hover {
+  cursor: pointer;
+  background-color: #8cc8ea;
+}
+
+.hannah-timeline__opositeLeft {
+  margin-top: 0px;
+}

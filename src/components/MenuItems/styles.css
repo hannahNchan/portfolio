@@ -1,0 +1,23 @@
+
+.hannah-menuitems-list {
+  list-style-type: none;
+}
+
+.hannah-menuitems-list__items > a {
+  color: antiquewhite;
+  text-transform: uppercase;
+  font: 14px/1.4 Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.hannah-menuitems-list__items > a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.hannah-menuitems-list > li:nth-child(n + 2) {
+  margin-top: 10px;
+}
+
+.hannah-menuitems-list > li:nth-child(4) {
+  margin-top: 30px;
+}

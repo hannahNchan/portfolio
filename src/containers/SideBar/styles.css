@@ -1,0 +1,27 @@
+.hannah-sidebar__picProfile {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hannah-sidebar__titles {
+  margin: 0;
+}
+
+.hannah-picProfile {
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.hannah-sidebar__itemMenu {
+  margin-top: 40px;
+  align-self: flex-start;
+}
+
+.hannah-sidebar__socialNet {
+  margin-top: 40px;
+  align-self: flex-start;
+  width: 100%;
+}
