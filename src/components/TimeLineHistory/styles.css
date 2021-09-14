@@ -1,5 +1,7 @@
 .hannah-timeline__oposite {
   flex: 0.1 0.1 !important;
+  max-width: fit-content;
+  margin-right: 1.5rem !important;
 }
 
 .hannah-timeline__itemContentContainer {
@@ -11,16 +13,22 @@
 
 .hannah-timeline__itemListTechnologies {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: stretch;
+  justify-content: space-between;
 }
 
 .hannah-timeline__itemListTechnologies > span {
   justify-content: space-between;
   background-color: #b9d8ea;
   padding: 10px;
+  margin-top: 0.5rem;
 }
 
+.hannah-timeline__itemListTechnologies > span > p {
+  margin: 0px;
+}
 .hannah-timeline__itemListTechnologies > span:hover {
   cursor: pointer;
   background-color: #8cc8ea;

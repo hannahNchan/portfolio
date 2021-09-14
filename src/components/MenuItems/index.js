@@ -1,18 +1,35 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-import './styles.css';
+import "./styles.css";
 
 const MenuItems = () => {
   return (
-    <ul className='hannah-menuitems-list'>
-      <li className='hannah-menuitems-list__items'><a>Portfolio</a></li>
-      <li className='hannah-menuitems-list__items'><a>My offer</a></li>
-      <li className='hannah-menuitems-list__items'><a>Contact me</a></li>
-      <li className='hannah-menuitems-list__items'><a>Mi CV</a></li>
-      <li className='hannah-menuitems-list__items'><a>Personal Blog</a></li>
-      <li className='hannah-menuitems-list__items'><a>Things that I created</a></li>
+    <ul className="hannah-menuitems-list">
+      <li className="hannah-menuitems-list__items">
+        <Link to="/">Home</Link>
+      </li>
+      <li className="hannah-menuitems-list__items">
+        <Link to="/portfolio">Portfolio</Link>
+      </li>
+      <li className="hannah-menuitems-list__items">
+        <Link to="/my-offer">My offer</Link>
+      </li>
+      <li className="hannah-menuitems-list__items">
+        <Link to="/contact-me">Contact me</Link>
+      </li>
+      <li className="hannah-menuitems-list__items">
+        <Link to="/resume">Mi resume</Link>
+      </li>
+      <li className="hannah-menuitems-list__items">
+        <Link to="/blog">Personal Blog</Link>
+      </li>
+      <li className="hannah-menuitems-list__items">
+        <Link to="/creations">Things that I created</Link>
+      </li>
     </ul>
-  )
-}
+  );
+};
 
-export default MenuItems
+export default MenuItems;
+

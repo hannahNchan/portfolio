@@ -1,0 +1,44 @@
+.hannah-socialnetworks {
+  &__facebook {
+    color: #3a559f;
+  }
+
+  &__linkedin {
+    color: #0273b1; 
+  }
+
+  &__instagram {
+    color: black; 
+  }
+
+  &__gmail {
+    color: #ca4634; 
+  }
+
+  &__twitter {
+    color: #2962ff; 
+  }
+}
+
+.hannah-socialnetworks > p {
+  color: antiquewhite;
+  text-transform: uppercase;
+  font: 12px/1.2 Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  text-align: center;
+}
+
+.hannah-socialnetworks > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 1.5rem;
+  justify-content: space-evenly;
+}
+
+.hannah-socialnetworks > ul > li {
+  & > svg {
+   font-size: 3rem;
+  }
+  display: inline;
+}
