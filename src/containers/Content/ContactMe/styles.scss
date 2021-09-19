@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.hannah-contactme {
+  margin: 2rem;
+
+  & div:first-child {
+    margin-bottom: 1rem;
+  }
+
+  & * > svg {
+   font-size: 3rem;
+  }
+
+  & ul {
+    padding-left: 0;
+    margin-top: 3rem;
+  }
+  
+  & li {
+    display: flex;
+  }
+
+  & li > a {
+    color: black; 
+    font-size: 2rem;
+    margin-left: 1rem;
+    align-self: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  & li > a:hover {
+  }
+
+  &__itemList {
+    list-style-type: none;
+  }
+
+  &__facebook {
+    color: #3a559f;
+  }
+
+  &__linkedin {
+    color: #0273b1; 
+  }
+
+  &__instagram {
+    color: black; 
+  }
+
+  &__gmail {
+    color: #ca4634; 
+  }
+
+  &__twitter {
+    color: #2962ff; 
+  }
+}
+
